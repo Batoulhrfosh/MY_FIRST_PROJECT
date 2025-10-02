@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="khamsat_test.css" >
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+    <body style="direction: ltr;  background-color: rgb(249, 237, 242);" >
+        <!-- navbar -->
+                
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                 <div class="container">
+
+                    <h2><a class="navbar-brand" href="#"> Narges </a></h2>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="links">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"> <a class="nav-link" href="khamsat_test.html">الرئيسية</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="khamsatabout.html">حول</a> </li>
+                                <li class="nav-item"> <a class="nav-link"href="khamsatleveltest.html">صفحة الاختبار</a> </li>
+                            </ul>
+                        
+                        </div>
+                </div>
+                </nav>
+                <!-- main section  -->
+                <div class=" w-50  mt-2 m-auto text-center mainSection">
+                    <h3>
+                        معهد Narges خيارك الامثل 
+                    </h3>
+                    <p>
+                         بادر للتسجبل لدينا من خلال استمارة  التسحيل بالاسفل او من خلال زيارتنا بالمعهد
+                         <br>
+                         اضغط الزر للاطلاع على السير الذاتية لمدرسينا
+                    </p>
+                    <button> <a href="cardsCvs.html" target="_blank" style="text-decoration: none;">اضغط هنا</a> </button>
+
+                </div>
+                <div class="w-50 mt-5 m-auto text-center">
+                    <form id="myRegisterForm" novalidate>
+                        <div class="mb-3 ">
+                            <label class="form-text-label" for="exampleName" style="font-weight:1000;">enter your name </label>
+                            <input type="text" name="userName1" class="form-control" id="exampleName" pattern="[a-zA-Z ]+" placeholder="first_name last_name" required>
+                            <!-- PATTERN : المحارف المقبولة الفراغ الاحرف كلا واشارة + يعني اكتر من حرف --> 
+                            <div class="invalid-feedback"> يجب ان يكون الاسم 3 محارف على الاقل </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" style="font-weight:1000;">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com" required>
+                            <div class="invalid-feedback"> اكتب بريد الكتروني صالح </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label" style="font-weight:1000;">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" minlength="8" required>
+                            <div class="invalid-feedback">يجب الا يقل عدد المحارف عن 8احرف </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmPassword1" class="form-label" style="font-weight:1000;">confirm your Password</label>
+                            <input type="password" class="form-control" id="confirmPassword1" required>
+                            <div class="invalid-feedback">   لا يوجد تطابق     </div>
+
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                    </form>
+
+                </div>
+                <footer class="mt-2">
+                    <div class="w-50 m-auto text-center">
+                        &copy; حقوق النشر محفوظة 2025 
+
+
+                    </div>
+                </footer>
+
+
+
+                    
+        <script src="khamsat_test.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

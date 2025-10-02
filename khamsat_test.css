@@ -1,0 +1,10 @@
+
+.links{
+list-style: none;
+display: flex;
+-ms-flex-align: start;
+}
+footer{
+    background-color: rgb(212, 248, 248);
+    height: 100px;
+}
