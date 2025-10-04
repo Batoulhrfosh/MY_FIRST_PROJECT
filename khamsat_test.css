@@ -1,3 +1,9 @@
+body{
+
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 .links{
 list-style: none;
@@ -7,4 +13,23 @@ display: flex;
 footer{
     background-color: rgb(212, 248, 248);
     height: 100px;
+}
+a:hover{
+    font-size: large;
+    color: #000;
+}
+.card ,.card-img-top{
+    border-radius: 40px;
+}
+.card:hover{
+transform: scale(1.1);
+box-shadow: 0 12px 6px rgba(0, 0, 0, 0.2);
+
+}
+.navbar{
+    position:sticky;
+    top: 0px;
+    left: 0px;
+     
+       background-color: #e3f2fd;
 }
