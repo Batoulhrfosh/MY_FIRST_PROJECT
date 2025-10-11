@@ -48,28 +48,28 @@
 
                 </div>
                 <div class="w-50 mt-5 m-auto text-center">
-                    <form id="myRegisterForm" novalidate>
-                        <div class="mb-5 " style="color: #ffc107;">
+                    <form id="myRegisterForm" action="https://formsubmit.co/el/xepabo" method="POST" novalidate>
+                        <div class="mb-5 " style="color: #fda823fa;">
                             <label class="form-text-label" for="exampleName" style="font-weight:1000;">ادخل اسمك الثلاثي  </label>
                             <input type="text" name="userName1" class="form-control" id="exampleName" pattern="[a-zA-Z ]+" placeholder="" required>
                             <!-- PATTERN : المحارف المقبولة الفراغ الاحرف كلا واشارة + يعني اكتر من حرف --> 
                             <div class="invalid-feedback"> يجب ان يكون الاسم 3 محارف على الاقل </div>
 
                         </div>
-                        <div class="mb-5" style="color: #ffc107;">
+                        <div class="mb-5" style="color: #fda823fa;">
                             <label for="exampleInputEmail1" class="form-label" style="font-weight:1000;"> ادخل عنوان بريدك الالكتروني </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com" required>
+                            <input type="email" name="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com" required>
                             <div class="invalid-feedback"> اكتب بريد الكتروني صالح </div>
                         </div>
-                        <div class="mb-5" style="color: #ffc107;">
+                        <div class="mb-5" style="color: #fda823fa;" >
                             <label for="exampleInputPassword1" class="form-label" style="font-weight:1000;">  ادخل كلمة مرور قوية</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" minlength="8" required>
+                            <input type="password" name="password" class="form-control" id="exampleInputPassword1" minlength="8" required>
                             <div class="invalid-feedback"> كلمة المرور يجب أن تحتوي على 8 أحرف على الأقل </div>
 
                         </div>
-                        <div class="mb-5" style="color: #ffc107;">
+                        <div class="mb-5" style="color: #fda823fa;">
                             <label for="confirmPassword1" class="form-label" style="font-weight:1000;"> تاكيد كلمة المرور </label>
-                            <input type="password" class="form-control" id="confirmPassword1" required>
+                            <input type="password" name="confirmpassword" class="form-control" id="confirmPassword1" required>
                             <div class="invalid-feedback">   لا يوجد تطابق     </div>
 
                         </div>
