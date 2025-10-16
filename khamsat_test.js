@@ -1,3 +1,11 @@
+ window.addEventListener('load', function() {
+    if (!window.location.hash) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+
+
+
 let myForm = document.getElementById("myRegisterForm");
 console.log(myForm);
 myForm.addEventListener("submit", function (event) {
