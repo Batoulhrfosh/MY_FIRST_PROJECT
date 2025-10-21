@@ -11,8 +11,10 @@ display: flex;
 -ms-flex-align: start;
 }
 footer{
-    background-color: rgb(212, 248, 248);
-    height: 100px;
+    background-color:#e3f2fd;
+    height: 150px;
+
+
 }
 a:hover{
     font-size: large;
