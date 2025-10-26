@@ -31,7 +31,7 @@ box-shadow: 0 12px 6px rgba(0, 0, 0, 0.2);
     position:sticky;
     top: 0px;
     left: 0px;
-     
+     z-index: 1000;
        background-color: #e3f2fd;
 }
 .collapse{
